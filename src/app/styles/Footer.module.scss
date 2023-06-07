@@ -1,0 +1,34 @@
+.footer_wrapper{
+    padding-top: 81px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    ul{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        row-gap:20px;
+        li{
+            list-style: none;
+            font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+letter-spacing: 0.02em;
+color: #9093B1;
+
+        }
+        li:nth-child(1){
+            font-family: 'Eastwood';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #fff;
+        }
+    }
+
+}

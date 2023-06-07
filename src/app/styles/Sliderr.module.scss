@@ -1,0 +1,50 @@
+.slider_wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+
+  .slider_item {
+    width: 30%;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    border-radius: 15px;
+  row-gap: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    
+    p:nth-child(1) {
+      font-family: "Eastwood";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 43px;
+      text-align: center;
+    }
+    p:nth-child(2) {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 31px;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #e9e9ef;
+      opacity: 0.6;
+      margin: 20px 0;
+    }
+    button{
+        color: #fff;
+        padding: 15px 40px;
+        border: none;
+
+        background: #4a3d68;
+        border-radius: 10px;
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+    }
+  }
+}
