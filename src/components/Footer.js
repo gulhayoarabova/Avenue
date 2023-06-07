@@ -5,7 +5,7 @@ const Footer = () => {
     <div className={classes.footer_wrapper}>
       <ul>
         <li>Avenue</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+        <li>Lorem lorem loremipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
       </ul>Avenue
       <ul>
         <li>Services</li>
